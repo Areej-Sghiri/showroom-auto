@@ -1,0 +1,32 @@
+:host {
+  display: block;
+}
+
+.header {
+  position: relative;
+  padding: 56px 20px 52px;
+  text-align: center;
+  color: #fff;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(201, 162, 75, 0.22), transparent 45%),
+    linear-gradient(135deg, var(--primary) 0%, var(--primary-soft) 100%);
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.25);
+}
+
+.header h1 {
+  margin: 0;
+  font-family: var(--font-title);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.header h1::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 18px auto 0;
+  border-radius: 3px;
+  background: var(--accent);
+}
