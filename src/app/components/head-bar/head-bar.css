@@ -6,11 +6,11 @@
   position: relative;
   padding: 56px 20px 52px;
   text-align: center;
-  color: #fff;
+  color: var(--text);
   background:
-    radial-gradient(circle at 15% 20%, rgba(201, 162, 75, 0.22), transparent 45%),
+    radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.55), transparent 45%),
     linear-gradient(135deg, var(--primary) 0%, var(--primary-soft) 100%);
-  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.25);
+  box-shadow: 0 6px 24px rgba(165, 108, 193, 0.25);
 }
 
 .header h1 {
