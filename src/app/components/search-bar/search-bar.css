@@ -1,5 +1,10 @@
 :host {
   display: block;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text);
 }
 
 /* ---------- Barre de recherche ---------- */
